@@ -1,0 +1,10 @@
+name: space
+static_sites:
+- name: space
+  environment_slug: html
+  github:
+    repo: danbeneventano/space
+    branch: main
+    deploy_on_push: true
+  build_command: yarn build
+  output_dir: out
